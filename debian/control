@@ -24,14 +24,14 @@ Homepage: https://projects.kde.org/projects/frameworks/kded
 Package: kded-dev
 Section: libdevel
 Architecture: any
-Depends: kded4 (= ${binary:Version}), ${misc:Depends}
+Depends: kded5 (= ${binary:Version}), ${misc:Depends}
 Description: Extensible daemon for providing session services
  KDED runs in the background and performs a number of small tasks.
  Some of these tasks are built in, others are started on demand.
  .
  Contains development files for kded.
  
-Package: kded4
+Package: kded5
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -39,11 +39,11 @@ Description: Extensible daemon for providing session services
  KDED runs in the background and performs a number of small tasks.
  Some of these tasks are built in, others are started on demand.
  
-Package: kded4-dbg
+Package: kded5-dbg
 Priority: extra
 Section: debug
 Architecture: any
-Depends: kded4 (= ${binary:Version}), ${misc:Depends}
+Depends: kded5 (= ${binary:Version}), ${misc:Depends}
 Description: Extensible daemon for providing session services
  KDED runs in the background and performs a number of small tasks.
  Some of these tasks are built in, others are started on demand.
