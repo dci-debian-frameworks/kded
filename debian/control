@@ -3,44 +3,42 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13), qtbase5-dev,
- libkf5config-dev (>= 4.99.0), libkf5kjs-dev (>= 4.99.0),
- libkf5i18n-dev (>= 4.99.0), libkf5coreaddons-dev (>= 4.99.0),
- libkf5auth-dev (>= 4.99.0), libkf5codecs-dev (>= 4.99.0),
- libkf5guiaddons-dev (>= 4.99.0), libkf5widgetsaddons-dev (>= 4.99.0),
- libkf5configwidgets-dev (>= 4.99.0), libkf5itemviews-dev (>= 4.99.0), libkf5iconthemes-dev (>= 4.99.0), libkf5globalaccel-dev (>= 4.99.0),
- libkf5completion-dev (>= 4.99.0), libkf5dbusaddons-dev (>= 4.99.0),
- libkf5service-dev (>= 4.99.0), libkf5windowsystem-dev (>= 4.99.0),
- libkf5sonnet-dev (>= 4.99.0), libkf5textwidgets-dev (>= 4.99.0),
- libkf5xmlgui-dev (>= 4.99.0), libkf5bookmarks-dev (>= 4.99.0),
- libkf5jobwidgets-dev (>= 4.99.0), libkf5solid-dev (>= 4.99.0),
- kf5-kio-dev (>= 4.99.0), kinit-dev (>= 4.99.0),
- libkf5crash-dev (>= 4.99.0),kdoctools-dev (>= 4.99.0),
- libkf5archive-dev (>= 4.99.0)
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.13),
+               kdoctools-dev (>= 4.99.0),
+               kf5-kio-dev (>= 4.99.0),
+               kinit-dev (>= 4.99.0),
+               libkf5archive-dev (>= 4.99.0),
+               libkf5auth-dev (>= 4.99.0),
+               libkf5bookmarks-dev (>= 4.99.0),
+               libkf5codecs-dev (>= 4.99.0),
+               libkf5completion-dev (>= 4.99.0),
+               libkf5config-dev (>= 4.99.0),
+               libkf5configwidgets-dev (>= 4.99.0),
+               libkf5coreaddons-dev (>= 4.99.0),
+               libkf5crash-dev (>= 4.99.0),
+               libkf5dbusaddons-dev (>= 4.99.0),
+               libkf5globalaccel-dev (>= 4.99.0),
+               libkf5guiaddons-dev (>= 4.99.0),
+               libkf5i18n-dev (>= 4.99.0),
+               libkf5iconthemes-dev (>= 4.99.0),
+               libkf5itemviews-dev (>= 4.99.0),
+               libkf5jobwidgets-dev (>= 4.99.0),
+               libkf5kjs-dev (>= 4.99.0),
+               libkf5service-dev (>= 4.99.0),
+               libkf5solid-dev (>= 4.99.0),
+               libkf5sonnet-dev (>= 4.99.0),
+               libkf5textwidgets-dev (>= 4.99.0),
+               libkf5widgetsaddons-dev (>= 4.99.0),
+               libkf5windowsystem-dev (>= 4.99.0),
+               libkf5xmlgui-dev (>= 4.99.0),
+               pkg-kde-tools,
+               qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kded
 
-Package: kded-dev
-Section: libdevel
-Architecture: any
-Depends: kded5 (= ${binary:Version}), ${misc:Depends}
-Description: Extensible daemon for providing session services
- KDED runs in the background and performs a number of small tasks.
- Some of these tasks are built in, others are started on demand.
- .
- Contains development files for kded.
- 
-Package: kded5
-Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Extensible daemon for providing session services
- KDED runs in the background and performs a number of small tasks.
- Some of these tasks are built in, others are started on demand.
- 
 Package: kded5-dbg
-Priority: extra
 Section: debug
 Architecture: any
 Depends: kded5 (= ${binary:Version}), ${misc:Depends}
@@ -49,3 +47,5 @@ Description: Extensible daemon for providing session services
  Some of these tasks are built in, others are started on demand.
  .
  Contains debug symbols for kded.
+Pre-Depends: ${misc:Pre-Depends}
+Priority: extra
