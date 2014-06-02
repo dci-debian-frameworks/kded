@@ -47,7 +47,7 @@ Description: Extensible daemon for providing session services
  Some of these tasks are built in, others are started on demand.
  .
  Contains development files for kded.
-
+ 
 Package: kded5
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
