@@ -23,8 +23,8 @@ License: LGPL-2
 Files: src/kdedadaptor.cpp
        src/kdedadaptor.h
 Copyright: 1999 David Faure <faure@kde.org>
-           2000 Waldo Bastian <bastian@kde.org> 
-License: LGPL-2+ 
+           2000 Waldo Bastian <bastian@kde.org>
+License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
  License as published by the Free Software Foundation; either
@@ -43,7 +43,7 @@ License: LGPL-2+
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
-Files: debian/*     
+Files: debian/*
 Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
