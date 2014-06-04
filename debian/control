@@ -38,6 +38,20 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kded
 
+Package: kded5-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends},
+ libkf5coreaddons-dev,
+ libkf5crash-dev,
+ libkf5dbusaddons-dev,
+ libkf5service-dev
+Description: Extensible daemon for providing session services
+ KDED runs in the background and performs a number of small tasks.
+ Some of these tasks are built in, others are started on demand.
+ .
+ Contains development files.
+
 Package: kded5
 Section: libdevel
 Architecture: any

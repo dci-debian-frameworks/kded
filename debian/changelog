@@ -5,7 +5,13 @@ kded (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Bump depends versions
-  * Bump depends versions
+
+  [ Harald Sitter ]
+  * Add new package kded5-dev for development files (cmake config)
+  * Override lintian warnings for kded5
+    - package-name-doesnt-match-sonames
+    - shlib-without-versioned-soname
+    - postinst-must-call-ldconfig 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:37:09 +0100
 
