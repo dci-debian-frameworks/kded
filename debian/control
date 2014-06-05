@@ -53,7 +53,6 @@ Description: Extensible daemon for providing session services
  Contains development files.
 
 Package: kded5
-Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Extensible daemon for providing session services
