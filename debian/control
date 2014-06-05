@@ -59,7 +59,6 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Extensible daemon for providing session services
  KDED runs in the background and performs a number of small tasks.
  Some of these tasks are built in, others are started on demand.
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: kded5-dbg
 Section: debug
@@ -70,5 +69,4 @@ Description: Extensible daemon for providing session services
  Some of these tasks are built in, others are started on demand.
  .
  Contains debug symbols for kded.
-Pre-Depends: ${misc:Pre-Depends}
 Priority: extra
