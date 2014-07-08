@@ -37,6 +37,8 @@ Build-Depends: cmake,
                qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kded
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kded
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kded
 
 Package: kded5-dev
 Section: libdevel
