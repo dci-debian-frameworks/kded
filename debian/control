@@ -7,8 +7,8 @@ Build-Depends: cmake,
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 1.0.0),
                kdoctools-dev (>= 5.0.0),
-               kio-dev (>= 5.0.0),
                kinit-dev (>= 5.0.0),
+               kio-dev (>= 5.0.0),
                libkf5archive-dev (>= 5.0.0),
                libkf5auth-dev (>= 5.0.0),
                libkf5bookmarks-dev (>= 5.0.0),
@@ -43,11 +43,11 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kd
 Package: kded5-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends},
- libkf5coreaddons-dev,
- libkf5crash-dev,
- libkf5dbusaddons-dev,
- libkf5service-dev
+Depends: libkf5coreaddons-dev,
+         libkf5crash-dev,
+         libkf5dbusaddons-dev,
+         libkf5service-dev,
+         ${misc:Depends}
 Description: Extensible daemon for providing session services
  KDED runs in the background and performs a number of small tasks.
  Some of these tasks are built in, others are started on demand.
@@ -63,6 +63,7 @@ Description: Extensible daemon for providing session services
 
 Package: kded5-dbg
 Section: debug
+Priority: extra
 Architecture: any
 Depends: kded5 (= ${binary:Version}), ${misc:Depends}
 Description: Extensible daemon for providing session services
@@ -70,4 +71,3 @@ Description: Extensible daemon for providing session services
  Some of these tasks are built in, others are started on demand.
  .
  Contains debug symbols for kded.
-Priority: extra
