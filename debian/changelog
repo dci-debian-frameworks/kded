@@ -1,5 +1,5 @@
-kded (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+kded (5.0.0-0ubuntu1) utopic; urgency=medium
 
   * Initial stable upstream release
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sat, 25 Jan 2014 19:02:49 +0000
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 15 Jul 2014 12:43:40 +0200
