@@ -43,7 +43,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kded.git
 Package: kded5-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5coreaddons-dev,
+Depends: kded5,
+         libkf5coreaddons-dev,
          libkf5crash-dev,
          libkf5dbusaddons-dev,
          libkf5service-dev,
