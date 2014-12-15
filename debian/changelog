@@ -1,8 +1,8 @@
-kded (5.5.0-0ubuntu1) UNRELEASED; urgency=medium
+kded (5.5.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 11 Dec 2014 13:42:32 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 11:19:04 +0100
 
 kded (5.4.0-0ubuntu2) vivid; urgency=medium
 
