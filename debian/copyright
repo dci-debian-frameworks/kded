@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: kinit
-Source: https://projects.kde.org/projects/frameworks/kinit
+Upstream-Name: kded
+Source: git://anongit.kde.org/kded.git
 
 Files: *
 Copyright: © 1999-2000 Waldo Bastian <bastian@kde.org>
