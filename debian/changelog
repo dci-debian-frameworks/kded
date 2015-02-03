@@ -1,4 +1,4 @@
-kded (5.6.0-1~) UNRELEASED; urgency=medium
+kded (5.6.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
   * Update build dependencies to build against experimental and to
@@ -8,7 +8,7 @@ kded (5.6.0-1~) UNRELEASED; urgency=medium
   * Update install files.
   * Update watch file.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Jan 2015 15:18:28 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Feb 2015 17:56:20 +0100
 
 kded (5.6.0-0ubuntu1) vivid; urgency=medium
 
