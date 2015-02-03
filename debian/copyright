@@ -3,8 +3,8 @@ Upstream-Name: kded
 Source: git://anongit.kde.org/kded.git
 
 Files: *
-Copyright: © 1999-2000 Waldo Bastian <bastian@kde.org>
-           © 1999 David Faure <faure@kde.org>
+Copyright: 1999, David Faure <faure@kde.org>
+           1999-2000, Waldo Bastian <bastian@kde.org>
 License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -22,10 +22,14 @@ License: LGPL-2
 
 Files: src/kdedadaptor.cpp
        src/kdedadaptor.h
-       debian/*
-Copyright: 1999 David Faure <faure@kde.org>
-           2000 Waldo Bastian <bastian@kde.org>
-           2014 Scarlett Clark <sgclark@kubuntu.org>
+Copyright: 1999, David Faure <faure@kde.org>
+           2000, Waldo Bastian <bastian@kde.org>
+License: LGPL-2+
+
+Files: debian/*
+Copyright: 2014, Scarlett Clark <sgclark@kubuntu.org>
+License: LGPL-2+
+
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
