@@ -1,8 +1,8 @@
-kded (5.8.0-1~) UNRELEASED; urgency=medium
+kded (5.8.0-1) experimental; urgency=medium
 
   * New upstream release (5.8.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 10:24:05 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:39:12 +0100
 
 kded (5.7.0-1) experimental; urgency=medium
 
