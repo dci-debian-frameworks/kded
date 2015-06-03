@@ -6,7 +6,7 @@ kded (5.10.0-0ubuntu1) wily; urgency=medium
   [ Jonathan Riddell ]
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 20:20:58 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 20:33:29 +0200
 
 kded (5.9.0-1) experimental; urgency=medium
 
