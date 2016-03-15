@@ -18,7 +18,7 @@ Build-Depends: cmake (>= 2.8.12),
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kded
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kded.git
-Vcs-Git: https://anonscm.debian.org/pkg-kde/frameworks/kded.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kded.git
 
 Package: kded5-dev
 Section: libdevel
