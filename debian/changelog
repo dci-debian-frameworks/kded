@@ -1,3 +1,20 @@
+kded (5.20.0-1~1.gbp4f1955) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4f1955c2d0da48aa1b0209bedf5c70f2c2d52abf **
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 10:50:23 +0200
+
 kded (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
