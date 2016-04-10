@@ -1,6 +1,6 @@
-kded (5.20.0-1~1.gbp4f1955) UNRELEASED; urgency=medium
+kded (5.21.0-1~1.gbpfde696) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @4f1955c2d0da48aa1b0209bedf5c70f2c2d52abf **
+  ** SNAPSHOT build @fde6965c9eb868b1a5a96ca25b4d1d7d8facad5b **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -12,8 +12,14 @@ kded (5.20.0-1~1.gbp4f1955) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 10:50:23 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:50:17 +0200
 
 kded (5.19.0-1) experimental; urgency=medium
 
