@@ -1,6 +1,6 @@
-kded (5.21.0-1~1.gbpfde696) UNRELEASED; urgency=medium
+kded (5.22.0-1~1.gbpe26427) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @fde6965c9eb868b1a5a96ca25b4d1d7d8facad5b **
+  ** SNAPSHOT build @e26427459de6e3d27f36a7ad7a780ed5f3de52a0 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -9,6 +9,8 @@ kded (5.21.0-1~1.gbpfde696) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
   [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
@@ -19,7 +21,7 @@ kded (5.21.0-1~1.gbpfde696) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:50:17 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 13:50:10 +0200
 
 kded (5.19.0-1) experimental; urgency=medium
 
