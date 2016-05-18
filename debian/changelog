@@ -1,12 +1,13 @@
-kded (5.22.0-1~1.gbpe26427) UNRELEASED; urgency=medium
+kded (5.22.0-1~2.gbp191c4c) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e26427459de6e3d27f36a7ad7a780ed5f3de52a0 **
+  ** SNAPSHOT build @191c4cc7a1987c63bde3d7ca55860496a1d6d4c1 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Add new libkdeinit5_kded5 lintian-override
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
@@ -21,7 +22,7 @@ kded (5.22.0-1~1.gbpe26427) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 13:50:10 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 18 May 2016 14:50:14 +0200
 
 kded (5.19.0-1) experimental; urgency=medium
 
