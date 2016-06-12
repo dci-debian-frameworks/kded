@@ -1,3 +1,11 @@
+kded (5.23.0-1~1.gbp77ea87) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @77ea87a800ecbd15ebc8f26197f8585b1a5ee44c **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 19:50:12 +0200
+
 kded (5.22.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
