@@ -3,7 +3,7 @@ kded (5.23.0-1) unstable; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 23:47:36 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 23:47:58 +0200
 
 kded (5.22.0-1) unstable; urgency=medium
 
