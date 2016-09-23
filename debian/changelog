@@ -4,6 +4,13 @@ kded (5.26.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 12 Sep 2016 08:30:18 +0000
 
+kded (5.25.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 16:51:21 +0200
+
 kded (5.25.0-0neon) xenial; urgency=medium
 
   * New release
@@ -16,11 +23,33 @@ kded (5.24.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 11 Jul 2016 07:41:54 +0000
 
+kded (5.23.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 23:47:58 +0200
+
 kded (5.23.0-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Mon, 13 Jun 2016 09:38:48 +0000
+
+kded (5.22.0-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Add new libkdeinit5_kded5 lintian-override
+  * uscan no longer supports more than one main upstream tarball being listed
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 May 2016 00:44:12 +0200
 
 kded (5.22.0-0neon) xenial; urgency=medium
 
