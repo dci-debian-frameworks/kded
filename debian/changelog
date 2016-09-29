@@ -1,10 +1,9 @@
-kded (5.26.0-1~1.gbpca3fe9) UNRELEASED; urgency=medium
+kded (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @ca3fe90147ea6d5e50f8849dd87d642be133ded2 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 13:50:34 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:02:36 +0200
 
 kded (5.25.0-1) unstable; urgency=medium
 
