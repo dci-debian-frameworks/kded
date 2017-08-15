@@ -14,11 +14,18 @@ Build-Depends: cmake (>= 3.0~),
                libkf5doctools-dev (>= 5.37.0~),
                libkf5service-dev (>= 5.37.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.7.0~)
+               qtbase5-dev (>= 5.7.0~),
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/frameworks/kded
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kded.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kded.git
+
+Package: kded5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Extensible daemon for providing session services
+ KDED runs in the background and performs a number of small tasks.
+ Some of these tasks are built in, others are started on demand.
 
 Package: kded5-dev
 Section: libdevel
@@ -28,16 +35,9 @@ Depends: kded5 (= ${binary:Version}),
          libkf5crash-dev (>= 5.37.0~),
          libkf5dbusaddons-dev (>= 5.37.0~),
          libkf5service-dev (>= 5.37.0~),
-         ${misc:Depends}
+         ${misc:Depends},
 Description: Extensible daemon for providing session services
  KDED runs in the background and performs a number of small tasks.
  Some of these tasks are built in, others are started on demand.
  .
  Contains development files.
-
-Package: kded5
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Extensible daemon for providing session services
- KDED runs in the background and performs a number of small tasks.
- Some of these tasks are built in, others are started on demand.
