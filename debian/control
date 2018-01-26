@@ -5,14 +5,14 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 11~),
-               extra-cmake-modules (>= 5.41.0~),
-               kinit-dev (>= 5.41.0~),
-               libkf5config-dev (>= 5.41.0~),
-               libkf5coreaddons-dev (>= 5.41.0~),
-               libkf5crash-dev (>= 5.41.0~),
-               libkf5dbusaddons-dev (>= 5.41.0~),
-               libkf5doctools-dev (>= 5.41.0~),
-               libkf5service-dev (>= 5.41.0~),
+               extra-cmake-modules (>= 5.42.0~),
+               kinit-dev (>= 5.42.0~),
+               libkf5config-dev (>= 5.42.0~),
+               libkf5coreaddons-dev (>= 5.42.0~),
+               libkf5crash-dev (>= 5.42.0~),
+               libkf5dbusaddons-dev (>= 5.42.0~),
+               libkf5doctools-dev (>= 5.42.0~),
+               libkf5service-dev (>= 5.42.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
 Standards-Version: 4.1.2
@@ -31,10 +31,10 @@ Package: kded5-dev
 Section: libdevel
 Architecture: any
 Depends: kded5 (= ${binary:Version}),
-         libkf5coreaddons-dev (>= 5.41.0~),
-         libkf5crash-dev (>= 5.41.0~),
-         libkf5dbusaddons-dev (>= 5.41.0~),
-         libkf5service-dev (>= 5.41.0~),
+         libkf5coreaddons-dev (>= 5.42.0~),
+         libkf5crash-dev (>= 5.42.0~),
+         libkf5dbusaddons-dev (>= 5.42.0~),
+         libkf5service-dev (>= 5.42.0~),
          ${misc:Depends},
 Description: Extensible daemon for providing session services
  KDED runs in the background and performs a number of small tasks.
